@@ -1,0 +1,334 @@
+html, body{
+	margin: 0 auto;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+}
+
+
+h1{
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.nom_site{
+	color: black;
+	padding-top: 1%;
+	margin-bottom: 20%;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.img-responsive {
+ 	margin: 0 auto;
+ 	position: relative;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+/*barre de navigation*/
+.navbar{
+	background-color: #000000;
+	font: white;
+	padding: 0%;
+	margin:auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.cadie{
+	width: 25px;
+}
+ 
+/*carousel*/
+#carouselExampleIndicators{
+	margin: 0 auto;
+}
+
+
+/*articles*/
+
+.article{
+	width: 100%;
+	height: 70%;
+	margin: 0, auto;
+
+}
+
+.imgarticle{
+	width: 100%;
+	margin: 0, auto;
+	margin-bottom: 5%;
+	float: left
+}
+
+mark{
+	background-color: #d5e2de ;
+	color: black;
+}
+
+.rectangle{
+	margin: 0,auto;
+	padding-top: 1%;
+	padding-bottom: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+    border: solid;
+    border-color: black;
+}
+
+.rectangle h1{
+	color: #699789
+}
+
+.form-group input {
+	background-color: #d5e2de
+}
+
+.img4{
+	margin-left: 4%;
+	width: 45%;
+	height: 30%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+
+h2{
+  margin-left: 2%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px; 
+  text-align: center;
+}
+
+h5{
+	margin-left: 2%;
+	margin-right: 2%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	text-align: justify;
+}
+
+.petra2{
+	margin-left: 4%;
+	width: 45%;
+	height: 30%;
+	float: right;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+.reserver{
+	float: right;
+	background-color: #d5e2de;
+	color: black;
+	margin-right: 2%;
+}
+
+
+/* Page Login */
+#container{
+    width:400px;
+    margin:0 auto;
+   
+}
+
+/* Les bordures et css de la connexion et de s'inscrire */
+.fond{
+	background-image: radial-gradient(circle, #94bcbb, #dce9e9, #ecf3f3);
+	width: 100%;
+}
+
+.connexion {
+    width:100%;
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2), 0 15px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+#container h1{
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+#container input{
+	background-color: #d5e2de;
+}
+
+.email{
+	margin-left: 6.5%;
+	margin-bottom: 5%;
+}
+
+.login {
+	margin-left: 40%;
+	margin-top: 10%;
+}
+
+.nom {
+ 	margin-bottom: 10%;
+ 	margin-left: 20%;
+}
+
+.mdp{
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+
+
+/* Les bordures et css de contact */
+
+
+.maps{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.iuttext{
+	color: #b3c6c0;
+}
+ .moi{
+ 	width: 20%;
+ 	margin-left: 41%;
+ }
+
+.contact{
+	width:100%;
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2), 0 15px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+/*fichier audio */
+.audio{
+	margin-top: 1%;
+	font-family: 'Roboto', sans-serif;
+
+}
+ 
+/*looder*/
+section{
+  width:20%;
+  margin:0 auto;
+}
+
+.loader{
+  width:100%;
+  height:20px;
+  background:white;
+  border-radius:10px;
+  border: 1px solid lightgrey;
+  overflow:hidden;
+} 
+
+.loader-active{
+  width:100%;
+  height:100%;
+  background:green;
+  animation-name: loader;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; /*1, 2, more or infinite */
+  animation-timing-function: linear; /* ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+  /*
+   animation-delay: 2s;
+  */
+}
+@keyframes loader {
+  0% {
+    background-color: #dceae6;
+    width:0%;
+  }
+  40% {
+    background-color: #d5e2de;
+    width:40%;
+  }
+  100% {
+    background-color: #82b2a3;
+    width:100%;
+    
+  }
+}
+
+/*panier*/
+.payer {
+	background-color: #d5e2de;
+	color: black;
+}
+
+.shop{
+	background-color: #d5e2de;
+	color: black;
+}
+
+/*footer*/
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 30%;
+    background: black;
+    color: #FFFFFF;
+    margin-bottom: 0px, auto;
+    padding-bottom: 0px;
+}
+
+.footer1 {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 30%;
+    background: black;
+    color: #FFFFFF;
+    margin-bottom: 0px, auto;
+    padding-bottom: 0px;
+}
+
+
+.logofooter{
+	height: 100px;
+	width: 200px;
+	margin-left: 50%;
+	margin-bottom: 0%;
+}
+
+.container2{
+	bottom: 0;
+
+}
+
+.rs1{
+	width: 30px;
+	height: 30px;
+	margin-top: 5%;
+	margin-bottom: 0%;
+}
+
+.copy{
+	margin-top: 11%;
+	margin-bottom: 0%;
+
+}
+
+
+.liens{
+	margin-left: 0%;
+	margin-bottom: 0%;
+	margin-top: 0%;
+	color:  white;
+}
+}	
+
+}
+
+
